@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{0BEECD1C-F10C-43C5-8ACE-E1B4DB20E534}|CartAPI.csproj|solutionrelative:controllers\\cartitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0BEECD1C-F10C-43C5-8ACE-E1B4DB20E534}|CartAPI.csproj|d:\\web application\\cartapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BEECD1C-F10C-43C5-8ACE-E1B4DB20E534}|CartAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0BEECD1C-F10C-43C5-8ACE-E1B4DB20E534}|CartAPI.csproj|d:\\web application\\cartapi\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BEECD1C-F10C-43C5-8ACE-E1B4DB20E534}|CartAPI.csproj|solutionrelative:models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -18,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Web Application\\CartAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Web Application\\CartAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwAwAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T13:22:16.378Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,14 +45,14 @@
               "RelativeDocumentMoniker": "Controllers\\CartItemController.cs",
               "ToolTip": "D:\\Web Application\\CartAPI\\Controllers\\CartItemController.cs",
               "RelativeToolTip": "Controllers\\CartItemController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAuwC8AAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAACAAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T18:06:52.541Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CartItem.cs",
               "DocumentMoniker": "D:\\Web Application\\CartAPI\\Models\\CartItem.cs",
               "RelativeDocumentMoniker": "Models\\CartItem.cs",

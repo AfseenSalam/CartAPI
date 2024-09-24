@@ -18,7 +18,7 @@ namespace CartAPI.Controllers
         private static int nextId = 4;
 
         [HttpGet()]
-        public IActionResult GetAll(int? maxprice = null, string prefix = null, int? pageSize = null)
+        public IActionResult GetAll(int? maxprice = null, string prefix = null, int? pageSize = null,int? page = null)
         {
             List<CartItem> result = items;
             if(maxprice != null)
@@ -29,9 +29,14 @@ namespace CartAPI.Controllers
             {
                 result = result.Where(i =>i.Product.StartsWith(prefix,StringComparison.OrdinalIgnoreCase)).ToList();
             }
-            if (pageSize != null && pageSize>0)
+            if(page == null) { page = 0; }
+            if (pageSize != null)
             {
-                result = result.Take(pageSize.Value).ToList();
+                int start = pageSize.Value * page.Value;
+                int end = start + pageSize.Value;
+                result = result.Take(start..end).ToList();
+
+                //result = result.Take(pageSize.Value).ToList();
             }
             return Ok(result);
         }
@@ -45,7 +50,7 @@ namespace CartAPI.Controllers
 //bash: Request: command not found
 
 
-//        [HttpGet("{id}")]
+[HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
             CartItem c = items.FirstOrDefault(i => i.Id == id);

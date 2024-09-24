@@ -33,3 +33,4 @@ D:\Web Application\CartAPI\obj\Debug\net8.0\refint\CartAPI.dll
 D:\Web Application\CartAPI\obj\Debug\net8.0\CartAPI.pdb
 D:\Web Application\CartAPI\obj\Debug\net8.0\CartAPI.genruntimeconfig.cache
 D:\Web Application\CartAPI\obj\Debug\net8.0\ref\CartAPI.dll
+D:\Web Application\CartAPI\obj\Debug\net8.0\CartAPI.sourcelink.json
